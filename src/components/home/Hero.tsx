@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/image';
-import Header from '../common/Header';
 
 function Hero() {
     return (

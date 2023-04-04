@@ -1,89 +1,41 @@
 import React from 'react'
 import { Tabs, TabList, Tab, TabPanels, TabPanel, Text } from '@chakra-ui/react'
+import ProductCard from './ProductCard'
 
 function ProductList() {
     return (
         <section className="py-10">
             <Tabs align='center' variant='enclosed'>
                 <TabList>
-                    <Tab>One</Tab>
-                    <Tab>Two</Tab>
-                    <Tab>Two</Tab>
-                    <Tab>Two</Tab>
+                    <Tab>All</Tab>
+                    <Tab>Phones</Tab>
+                    <Tab>Laptops</Tab>
+                    <Tab>Accessories</Tab>
                 </TabList>
                 <TabPanels>
                     <TabPanel>
                         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-7 pt-10">
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
-                            <div className="">
-                                <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
-                                <div className="py-5">
-                                    <Text fontSize='lg'>Bunny balaclava</Text>
-                                    <Text fontSize='sm' as="b">$200</Text>
-                                </div>
-                            </div>
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
+                            <ProductCard image={''} title={''} price={''} description={''}/>
+
                         </div>
                     </TabPanel>
                     <TabPanel>
