@@ -11,7 +11,7 @@ import { GrPinterest } from "react-icons/gr"
 
 
 
-function productdetails() {
+function Productdetails() {
     const router = useRouter()
     const { id, title } = router.query
     return (
@@ -79,4 +79,4 @@ function productdetails() {
     )
 }
 
-export default productdetails
+export default Productdetails
