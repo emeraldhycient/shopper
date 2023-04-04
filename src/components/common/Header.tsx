@@ -47,7 +47,7 @@ function Header({ title, description }: Theader) {
                 isOpen={isOpen}
                 placement='right'
                 onClose={onClose}
-                finalFocusRef={btnRef}
+                finalFocusRef={btnRef as  never}
             >
                 <DrawerOverlay />
                 <DrawerContent>
