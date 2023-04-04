@@ -30,7 +30,7 @@ function productdetails() {
                         <button className='h-[70px] w-full bg-black text-white flex justify-center items-center'>
                             <HiShoppingCart className='mr-4' /> Add to cart
                         </button>
-                        <button className='h-[70px] w-fit border-[0.45px] border-gray-400 text-black flex justify-center items-center px-7'>
+                        <button className='h-[70px] w-full md:w-fit border-[0.45px] border-gray-400 text-black flex justify-center items-center px-7'>
                             <IoIosHeartEmpty className='mr-4 text-gray-500' />
                         </button>
                     </div>

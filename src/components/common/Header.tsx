@@ -25,15 +25,14 @@ function Header({ title, description }: Theader) {
     const btnRef = React.useRef()
 
     return (
-        <div>
+        <div className='sticky top-0 bg-white'>
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={`${description}`} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="https://i.im.ge/2023/04/05/IxXAb6.favicon-32x32.png" />
             </Head>
-            <section className=" h-[100px] py-10 px-20 flex justify-between items-center">
-                {/* <HiOutlineMenuAlt1 color="black" onClick={onOpen} size={30} /> */}
+            <section className=" h-[100px] py-10 px-4 md:px-20 flex justify-between items-center sticky top-0">
                 <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={250} height={250} />
                 <section onClick={onOpen} className="flex items-center">
                     <HiShoppingCart color="black" size={30} />
