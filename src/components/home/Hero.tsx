@@ -35,7 +35,8 @@ function Hero() {
                     </a>
                 </div>
                 <div >
-                    <img width="500" height="833" src="https://minepi.com/wp-content/uploads/2022/12/pi_video-6.webp" className="attachment-full size-full" alt="Pi Phone Image Video" decoding="async" loading="lazy" srcSet="https://minepi.com/wp-content/uploads/2022/12/pi_video-6.webp 500w, https://minepi.com/wp-content/uploads/2022/12/pi_video-6-180x300.webp 180w, https://minepi.com/wp-content/uploads/2022/12/pi_video-6-7x12.webp 7w" sizes="(max-width: 500px) 100vw, 500px" />
+                    {/*srcSet="https://minepi.com/wp-content/uploads/2022/12/pi_video-6.webp 500w, https://minepi.com/wp-content/uploads/2022/12/pi_video-6-180x300.webp 180w, https://minepi.com/wp-content/uploads/2022/12/pi_video-6-7x12.webp 7w" */}
+                    <Image width="500" height="833" src="https://minepi.com/wp-content/uploads/2022/12/pi_video-6.webp" className="attachment-full size-full" alt="Pi Phone Image" decoding="async" loading="lazy"  sizes="(max-width: 500px) 100vw, 500px" />
                 </div>
             </div>
         </section>

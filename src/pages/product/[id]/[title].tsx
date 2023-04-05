@@ -8,6 +8,7 @@ import { IoIosHeartEmpty } from "react-icons/io"
 import { ImFacebook } from "react-icons/im"
 import { AiOutlineInstagram } from "react-icons/ai"
 import { GrPinterest } from "react-icons/gr"
+import Image from 'next/image'
 
 
 
@@ -19,7 +20,9 @@ function Productdetails() {
             <Header title={'pi shopping mall'} description={'your comfort shopping malls'} />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5 md:px-20 border-b border-gray-300 pb-20 mt-20">
                 <div className="">
-                    <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/BF917D9F-28E4-40B3-9D06-841DB5151693-scaled.jpeg?w=1920&ssl=1" alt="" />
+                    <div style={{ backgroundImage: "url(https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1)", backgroundRepeat: "no-repeat", backgroundSize: "contain" }} className="h-[190px] md:h-[610px] w-full" />
+
+                    {/* <Image src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/BF917D9F-28E4-40B3-9D06-841DB5151693-scaled.jpeg?w=1920&ssl=1" alt="" /> */}
                 </div>
                 <div className="pt-10">
                     <Text fontSize='3xl' className='text-center'>{title}</Text>
@@ -27,10 +30,10 @@ function Productdetails() {
                     <Text fontSize='2xl' className='text-center mb-16 md:mb-32'><b>200π</b></Text>
                     <Text fontSize='xz' className='text-center mb-3'>1 in stock</Text>
                     <div className="grid md:grid-cols-2 gap-4 md:px-20 mb-10">
-                        <button className='h-[70px] w-full bg-black text-white flex justify-center items-center'>
+                        <button className='h-[50px] w-full bg-black text-white flex justify-center items-center'>
                             <HiShoppingCart className='mr-4' /> Add to cart
                         </button>
-                        <button className='h-[70px] w-full md:w-fit border-[0.45px] border-gray-400 text-black flex justify-center items-center px-7'>
+                        <button className='h-[50px] w-full md:w-fit border-[0.45px] border-gray-400 text-black flex justify-center items-center px-7'>
                             <IoIosHeartEmpty className='mr-4 text-gray-500' />
                         </button>
                     </div>
