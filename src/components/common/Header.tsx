@@ -39,6 +39,7 @@ function Header({ title, description }: Theader) {
             <section className=" h-[70px] py-10 px-4 md:px-20 flex justify-between items-center sticky top-0 shadow">
                 <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={180} height={250} />
                 <section onClick={onOpen} className="flex items-center">
+                    <Text className='text-[13px] font-bold'>Cart</Text>
                     <HiShoppingCart color="black" size={20} />
                     <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3">
                         <Text className='text-[11px] font-bold'>
