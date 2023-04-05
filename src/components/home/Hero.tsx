@@ -8,14 +8,6 @@ import Typed from 'react-typed';
 
 function Hero() {
 
-    const scroll2El = (elID: any) => {
-        window.scrollTo({
-            top: document?.getElementById(elID).offsetTop - 60,
-            behavior: 'smooth',
-        });
-    };
-
-
     return (
         <section className='h-fit' style={{ backgroundImage: "url(https://minepi.com/wp-content/uploads/2022/11/34-14-11-2.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }}>
             <Header title={'pi shopping mall'} description={'your comfort shopping malls'} />
@@ -28,7 +20,7 @@ function Hero() {
                             typeSpeed={30}
                             loop
                     /></Text>
-                    <a href="#products" onClick={(e) => { e.preventDefault(); scroll2El("products") }}>
+                    <a href="#products">
                         <button className='h-[50px] w-full md:w-[40%] bg-white text-black flex justify-center items-center mt-10 border rounded-lg font-bold'>
                             Start Shopping <AiOutlineArrowDown size={22} className="ml-2 bounce font-bold"/>
                         </button>
