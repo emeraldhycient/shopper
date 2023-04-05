@@ -21,7 +21,7 @@ function Hero() {
                             loop
                     /></Text>
                     <a href="#products">
-                        <button className='h-[50px] w-full md:w-[40%] bg-white text-black flex justify-center items-center mt-10 border rounded-lg font-bold'>
+                        <button className='h-[50px] w-full md:w-[40%] bg-white text-black flex justify-center items-center mt-10 border font-bold'>
                             Start Shopping <AiOutlineArrowDown size={22} className="ml-2 bounce font-bold"/>
                         </button>
                     </a>
