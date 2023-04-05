@@ -24,7 +24,7 @@ function Productdetails() {
                 <div className="pt-10">
                     <Text fontSize='3xl' className='text-center'>{title}</Text>
                     <Text fontSize={"sm"} className="text-gray-500 my-10 text-left md:text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusamus veniam laborum, aut reiciendis eaque suscipit laudantium voluptatum libero ea hic deleniti soluta rerum ex distinctio ab maiores tempore nulla.</Text>
-                    <Text fontSize='2xl' className='text-center mb-16 md:mb-32'><b>$200</b></Text>
+                    <Text fontSize='2xl' className='text-center mb-16 md:mb-32'><b>200π</b></Text>
                     <Text fontSize='xz' className='text-center mb-3'>1 in stock</Text>
                     <div className="grid md:grid-cols-2 gap-4 md:px-20 mb-10">
                         <button className='h-[70px] w-full bg-black text-white flex justify-center items-center'>

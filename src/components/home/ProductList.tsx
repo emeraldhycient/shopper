@@ -13,8 +13,8 @@ function ProductList() {
                     <Tab>Accessories</Tab>
                 </TabList>
                 <TabPanels>
-                    <TabPanel>
-                        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-7 pt-10">
+                    <TabPanel id='products'>
+                        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7 pt-10">
                             <ProductCard image={''} title={''} price={''} description={''}/>
                             <ProductCard image={''} title={''} price={''} description={''}/>
 

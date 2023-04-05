@@ -10,7 +10,7 @@ function ProductCard({ image, title, price, description }: TproductCards) {
             <img src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/unnamed-21.jpg?zoom=2&resize=433%2C516&ssl=1" alt="" />
             <div className="py-5">
                 <Text fontSize='lg'>Poison ivy top (black and yellow)</Text>
-                <Text fontSize='sm' as="b">$200</Text>
+                <Text fontSize='sm' as="b">200π</Text>
             </div>
         </Link>
     )
