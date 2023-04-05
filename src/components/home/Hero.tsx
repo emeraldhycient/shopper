@@ -13,7 +13,7 @@ function Hero() {
             <Header title={'pi shopping mall'} description={'your comfort shopping malls'} />
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div className="h-full flex flex-col  pt-20 md:pt-40 px-5 md:px-16 ">
-                    <Text fontSize={["2xl", " 4xl"]} className='text-white text-left mb-7 leading-relaxed' as={'b'}>Shop with ease and take advantage of Pi to make your purchases.</Text>
+                    <Text fontSize={["2xl", " 4xl"]} className='text-white text-left mb-7 leading-relaxed' >Shop with ease and take advantage of Pi to make your purchases.</Text>
                     <Text fontSize={['xs', 'md']} className='text-white text-left leading-relaxed' >
                         <Typed
                         strings={['No more waiting for confirmations or worrying about fraud. Pi uses cutting-edge blockchain technology to ensure that your transactions are safe and secure.']}
