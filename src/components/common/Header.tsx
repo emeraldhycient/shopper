@@ -20,6 +20,7 @@ import Image from 'next/image'
 import { Theader, TproductCards } from '@/types'
 import Item from '../cart/items'
 import { useCart } from '@/states/cart'
+import { useScrollPosition } from '@/hooks/position'
 
 
 function Header({ title, description }: Theader) {
@@ -28,20 +29,23 @@ function Header({ title, description }: Theader) {
 
     const cart = useCart((state: any) => state.cart)
 
+    const scrollPosition = useScrollPosition()
+
+
     return (
-        <div className='sticky top-0 bg-white'>
+        <div className='sticky top-0'>
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={`${description}`} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="https://i.im.ge/2023/04/05/IxXAb6.favicon-32x32.png" />
             </Head>
-            <section className=" h-[70px] py-10 px-4 md:px-20 flex justify-between items-center sticky top-0 shadow">
-                <Text className='text-[20px] font-extrabold text-[#8a348e]'>PI ShoppingMall</Text>
+            <section className={` shadow bg-[rgba(89,59,139,100)]  h-[70px] py-10 px-4 md:px-20 flex justify-between items-center sticky top-0 `}>
+                <Text className={`text-[20px] font-extrabold text-amber-500`}>PI ShoppingMall</Text>
                 {/* <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={180} height={250} /> */}
                 <section onClick={onOpen} className="flex items-center">
-                    <Text className='text-[13px] font-bold'>Cart</Text>
-                    <HiShoppingCart color="black" size={20} />
+                    <Text className={`text-[15px] font-bold text-white`}>Cart</Text>
+                    <HiShoppingCart color="white" size={18} />
                     <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3">
                         <Text className='text-[11px] font-bold'>
                             {cart.length || 0}
