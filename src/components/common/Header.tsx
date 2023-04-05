@@ -42,7 +42,7 @@ function Header({ title, description }: Theader) {
                     <HiShoppingCart color="black" size={20} />
                     <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3">
                         <Text className='text-[11px] font-bold'>
-                            {cart.length}
+                            {cart.length || 0}
                         </Text>
                     </div>
                 </section>
@@ -59,7 +59,7 @@ function Header({ title, description }: Theader) {
                     <DrawerHeader className='flex items-center'>Shopping Cart
                         <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3 ml-3">
                             <Text className='text-[11px] font-bold'>
-                                {cart.length}
+                                {cart.length || 0}
                             </Text>
                         </div>
                     </DrawerHeader>
