@@ -5,7 +5,7 @@ import storeData from "../../constants/products.json"
 
 function ProductList() {
     return (
-        <section className="py-10">
+        <section className="py-10" id='products'>
             <Tabs align='center' variant='enclosed'>
                 <TabList>
                     <Tab>All</Tab>
@@ -14,7 +14,7 @@ function ProductList() {
                     <Tab>Accessories</Tab>
                 </TabList>
                 <TabPanels>
-                    <TabPanel id='products'>
+                    <TabPanel>
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7 pt-10">
                             {
                                 storeData.map((item) => (                                 

@@ -4,11 +4,15 @@ import { Tabs, TabList, Tab, TabPanels, TabPanel, Text } from '@chakra-ui/react'
 import Header from '../common/Header';
 import { AiOutlineArrowDown } from "react-icons/ai"
 import Typed from 'react-typed';
-import ScrollIntoView from 'react-scroll-into-view'
+import dynamic from 'next/dynamic'
 
 
 function Hero() {
 
+    const ScrollIntoView = dynamic(import("react-scroll-into-view"), {
+        ssr: false
+    });
+    
     return (
         <section className='h-fit' style={{ backgroundImage: "url(https://minepi.com/wp-content/uploads/2022/11/34-14-11-2.jpg)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }}>
             <Header title={'pi shopping mall'} description={'your comfort shopping malls'} />
