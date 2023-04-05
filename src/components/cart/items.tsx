@@ -6,12 +6,9 @@ import { TproductCards } from '@/types';
 
 
 function Item({ item }: { item: TproductCards }) {
-    
-    console.log(item)
-
     return (
         <div className='grid grid-cols-5 gap-3 my-4'>
-            <div style={{ backgroundImage: `url(${item?.image})`, backgroundRepeat: "no-repeat", backgroundSize: "contain" }} className=" h-24 w-24 col-span-2" />
+            <div style={{ backgroundImage: `url(${item?.image})`, backgroundRepeat: "no-repeat", backgroundSize: "contain" }} className=" h-24 w-24 col-span-2 bg-green" />
             <div className="col-span-3">
                 <Text fontSize='sm'>{item?.title}</Text>
                 <Text fontSize='sm' as="b">{item?.price}π</Text>

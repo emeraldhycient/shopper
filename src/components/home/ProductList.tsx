@@ -18,7 +18,7 @@ function ProductList() {
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7 pt-10">
                             {
                                 storeData.map((item) => (                                 
-                                    <ProductCard image={item.image} title={item.title} price={item.price} description={item.shortDescription} id={item.id} />
+                                    <ProductCard image={item.image} title={item.title} price={item.price} description={item.shortDescription} id={item.id} key={item?.id} />
                              ))
                             }                          
                         </div>

@@ -33,8 +33,7 @@ function Productdetails() {
             <Header title={'pi shopping mall'} description={'your comfort shopping malls'} />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5 md:px-20 border-b border-gray-300 pb-20 mt-20">
                 <div className="">
-                    <div style={{ backgroundImage: `url(${details?.image})`, backgroundRepeat: "no-repeat", backgroundSize: "contain" }} className="h-[400px] md:h-[610px] w-[100vw]" />
-                    {/* <Image src="https://i0.wp.com/yarnoverng.com/wp-content/uploads/2023/01/BF917D9F-28E4-40B3-9D06-841DB5151693-scaled.jpeg?w=1920&ssl=1" alt="" /> */}
+                    <div style={{ backgroundImage: `url(${details?.image})`, backgroundRepeat: "no-repeat", backgroundSize: "contain" }} className="h-[400px] md:h-[610px] w-[80vw]" />
                 </div>
                 <div className="pt-10">
                     <Text fontSize='3xl' className='text-center'>{title}</Text>

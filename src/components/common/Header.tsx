@@ -27,7 +27,6 @@ function Header({ title, description }: Theader) {
     const btnRef = React.useRef()
 
     const cart = useCart((state: any) => state.cart)
-    console.log(cart)
 
     return (
         <div className='sticky top-0 bg-white'>
