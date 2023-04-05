@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tabs, TabList, Tab, TabPanels, TabPanel, Text } from '@chakra-ui/react'
 import ProductCard from './ProductCard'
+import storeData from "../../constants/products.json"
 
 function ProductList() {
     return (
@@ -15,27 +16,11 @@ function ProductList() {
                 <TabPanels>
                     <TabPanel id='products'>
                         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-7 pt-10">
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
-                            <ProductCard image={''} title={''} price={''} description={''}/>
-
+                            {
+                                storeData.map((item) => (                                 
+                                    <ProductCard image={item.image} title={item.title} price={item.price} description={item.shortDescription} id={item.id} />
+                             ))
+                            }                          
                         </div>
                     </TabPanel>
                     <TabPanel>

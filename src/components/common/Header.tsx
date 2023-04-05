@@ -17,13 +17,17 @@ import { HiOutlineMenuAlt1 } from "react-icons/hi"
 import { HiShoppingCart } from "react-icons/hi"
 import Head from 'next/head'
 import Image from 'next/image'
-import { Theader } from '@/types'
+import { Theader, TproductCards } from '@/types'
 import Item from '../cart/items'
+import { useCart } from '@/states/cart'
 
 
 function Header({ title, description }: Theader) {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const btnRef = React.useRef()
+
+    const cart = useCart((state: any) => state.cart)
+    console.log(cart)
 
     return (
         <div className='sticky top-0 bg-white'>
@@ -39,7 +43,7 @@ function Header({ title, description }: Theader) {
                     <HiShoppingCart color="black" size={20} />
                     <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3">
                         <Text className='text-[11px] font-bold'>
-                            0
+                            {cart.length}
                         </Text>
                     </div>
                 </section>
@@ -48,7 +52,7 @@ function Header({ title, description }: Theader) {
                 isOpen={isOpen}
                 placement='right'
                 onClose={onClose}
-                finalFocusRef={btnRef as  never}
+                finalFocusRef={btnRef as never}
             >
                 <DrawerOverlay />
                 <DrawerContent>
@@ -56,21 +60,19 @@ function Header({ title, description }: Theader) {
                     <DrawerHeader className='flex items-center'>Shopping Cart
                         <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3 ml-3">
                             <Text className='text-[11px] font-bold'>
-                                0
+                                {cart.length}
                             </Text>
                         </div>
                     </DrawerHeader>
 
                     <DrawerBody>
-                        {/* <Input placeholder='Type here...' /> */}
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
-                        <Item/>
+                        {
+                            cart.length > 0 ?
+                                cart.map((item: TproductCards, index: number) => (
+                                    <Item item={item} key={index} />
+                                ))
+                                : null
+                        }
                     </DrawerBody>
 
                     <DrawerFooter>
