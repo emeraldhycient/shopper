@@ -13,7 +13,7 @@ import {
     Text
 } from '@chakra-ui/react'
 
-import { HiOutlineMenuAlt1 } from "react-icons/hi"
+import { FaUserCircle } from "react-icons/fa"
 import { HiShoppingCart } from "react-icons/hi"
 import Head from 'next/head'
 import Image from 'next/image'
@@ -43,6 +43,8 @@ function Header({ title, description }: Theader) {
             <section className={` shadow bg-[rgba(89,59,139,100)]  h-[70px] py-10 px-4 md:px-20 flex justify-between items-center sticky top-0 `}>
                 <Text className={`text-xl md:text-4xl font-medium text-amber-500`}>Pi Shoppingmall</Text>
                 {/* <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={180} height={250} /> */}
+                <div className='flex items-center'>
+                    <FaUserCircle  size={18} className="text-white mr-3" />
                 <section onClick={onOpen} className="flex items-center">
                     <Text className={`text-[15px] font-bold text-white`}>Cart</Text>
                     <HiShoppingCart color="white" size={18} />
@@ -52,6 +54,7 @@ function Header({ title, description }: Theader) {
                         </Text>
                     </div>
                 </section>
+                </div>
             </section>
             <Drawer
                 isOpen={isOpen}
