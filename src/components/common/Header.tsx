@@ -94,9 +94,9 @@ function Header({ title, description }: Theader) {
                         </Button>
                         {
                             cart.length > 0 ?
-                                <a href='/checkout' className='w-[70%]'>
+                                <Link href='/checkout' className='w-[70%]'>
                                     <Button colorScheme='blue'>Checkout <HiShoppingCart color="white" size={30} className="ml-2" /></Button>
-                                </a> : ""
+                                </Link> : ""
                         }
                     </DrawerFooter>
                 </DrawerContent>
