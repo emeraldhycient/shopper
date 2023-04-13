@@ -16,7 +16,7 @@ import {
 import { FaUserCircle } from "react-icons/fa"
 import { HiShoppingCart } from "react-icons/hi"
 import Head from 'next/head'
-import Image from 'next/image'
+import Link from 'next/link'
 import { Theader, TproductCards } from '@/types'
 import Item from '../cart/items'
 import { useCart } from '@/states/cart'
@@ -47,9 +47,9 @@ function Header({ title, description }: Theader) {
                 </div>
                 {/* <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={180} height={250} /> */}
                 <div className='flex items-center'>
-                    <a href="./signin">
+                    <Link href="/signin">
                         <FaUserCircle size={18} className="text-white mr-3" />
-                    </a>
+                    </Link>
                     <section onClick={onOpen} className="flex items-center">
                         <Text className={`text-[15px] font-bold text-white`}>Cart</Text>
                         <HiShoppingCart color="white" size={18} />
