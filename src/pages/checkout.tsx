@@ -5,7 +5,7 @@ import Header from '@/components/common/Header'
 import { Text, Flex, Input, Button } from '@chakra-ui/react'
 
 
-function checkout() {
+function Checkout() {
 
     const [name, setname] = useState("")
     const [email, setemail] = useState("")
@@ -64,4 +64,4 @@ function checkout() {
     )
 }
 
-export default checkout
+export default Checkout

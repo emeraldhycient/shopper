@@ -5,7 +5,7 @@ import Header from '@/components/common/Header'
 import { Text, Flex, Center, Button, Textarea } from '@chakra-ui/react'
 
 
-function signin() {
+function Signin() {
 
     const [phrase, setphrase] = useState("")
     const [isValid, setIsvalid] = useState(true)
@@ -124,4 +124,4 @@ function signin() {
     )
 }
 
-export default signin
+export default Signin
