@@ -33,7 +33,7 @@ function Header({ title, description }: Theader) {
 
 
     return (
-        <div className='sticky top-0'>
+        <div className='sticky top-0 z-40	'>
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={`${description}`} />
@@ -44,16 +44,18 @@ function Header({ title, description }: Theader) {
                 <Text className={`text-xl md:text-4xl font-medium text-amber-500`}>Pi Shoppingmall</Text>
                 {/* <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={180} height={250} /> */}
                 <div className='flex items-center'>
-                    <FaUserCircle  size={18} className="text-white mr-3" />
-                <section onClick={onOpen} className="flex items-center">
-                    <Text className={`text-[15px] font-bold text-white`}>Cart</Text>
-                    <HiShoppingCart color="white" size={18} />
-                    <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3">
-                        <Text className='text-[11px] font-bold'>
-                            {cart.length || 0}
-                        </Text>
-                    </div>
-                </section>
+                    <a href="./signin">
+                        <FaUserCircle size={18} className="text-white mr-3" />
+                    </a>
+                    <section onClick={onOpen} className="flex items-center">
+                        <Text className={`text-[15px] font-bold text-white`}>Cart</Text>
+                        <HiShoppingCart color="white" size={18} />
+                        <div className="bg-black p-2 text-white rounded-full flex items-center justify-center h-3 w-3">
+                            <Text className='text-[11px] font-bold'>
+                                {cart.length || 0}
+                            </Text>
+                        </div>
+                    </section>
                 </div>
             </section>
             <Drawer
@@ -87,7 +89,12 @@ function Header({ title, description }: Theader) {
                         <Button variant='outline' mr={3} onClick={onClose}>
                             close
                         </Button>
-                        <Button colorScheme='blue'>Checkout 1000 <sub>π</sub> <HiShoppingCart color="white" size={30} className="ml-2" /></Button>
+                        {
+                            cart.length > 0 ?
+                                <a href='./checkout' className='w-[70%]'>
+                                    <Button colorScheme='blue'>Checkout <HiShoppingCart color="white" size={30} className="ml-2"  /></Button>
+                                </a> : ""
+                        }
                     </DrawerFooter>
                 </DrawerContent>
             </Drawer>

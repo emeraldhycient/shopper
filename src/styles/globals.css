@@ -93,16 +93,16 @@
      background-color: white;
      color: #6D2B8A;
      width: 100%;
-     border-radius: 10px;
-     width: 80%;
+     /* border-radius: 10px; */
+     width: 100%;
  }
 
  .bg-purple {
      /* border: 2px solid #6D2B8A; */
      background-color: #6D2B8A;
      color: white;
-     border-radius: 10px;
-     width: 80%;
+     /* border-radius: 10px; */
+     width: 100%;
      margin-top: 10px;
  }
 
@@ -111,7 +111,7 @@
          /* border: 2px solid #6D2B8A; */
          background-color: #6D2B8A;
          color: white;
-         border-radius: 10px;
+         /* border-radius: 10px; */
          width: 100%;
          margin-top: 10px;
      }
