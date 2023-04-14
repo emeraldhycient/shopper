@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Head from 'next/head'
-import axios from "axios"
 import Header from '@/components/common/Header'
 import { Text, Flex, Input, Button } from '@chakra-ui/react'
 
@@ -25,32 +23,81 @@ function Checkout() {
                         <Flex color='white' flexDirection={["column", "row"]} mb={4}>
                             <div className='w-full mr-4 mb-4'>
                                 <Text fontSize='md' color={"blackAlpha.600"} mb={4}>Full Name</Text>
-                                <Input value={name} onChange={(text)=> setname(text.target.value)} placeholder='' size='md' required />
+                                <input
+                                    className=" appearance-none border rounded-sm w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline"
+                                    id=""
+                                    type="text"
+                                    placeholder=""
+                                    value={name}
+                                    onChange={(e) => setname(e.target.value)}
+                                    required
+                                />
                             </div>
                             <div className='w-full'>
                                 <Text fontSize='md' color={"blackAlpha.600"} mb={4}>Email</Text>
-                                <Input value={email} onChange={(text) => setemail(text.target.value)} placeholder='' size='md' required />
+                                <input
+                                    className=" appearance-none border rounded-sm w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline"
+                                    id=""
+                                    type="text"
+                                    placeholder=""
+                                    value={email}
+                                    onChange={(e) => setemail(e.target.value)}
+                                    required
+
+                                />
                             </div>
                         </Flex>
                         <Text fontSize='xl' mb={4}>Delivery Details</Text>
                         <Flex color='white' flexDirection={["column", "row"]} mb={4}>
                             <div className='w-full mr-4 mb-4'>
                                 <Text fontSize='md' color={"blackAlpha.600"} mb={4}>House Number / block no</Text>
-                                <Input value={house} onChange={(text) => sethouse(text.target.value)} placeholder='' size='md' required />
+                                <input
+                                    className=" appearance-none border rounded-sm w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline"
+                                    id=""
+                                    type="text"
+                                    placeholder=""
+                                    value={house}
+                                    onChange={(e) => sethouse(e.target.value)}
+                                    required
+                                />
                             </div>
                             <div className='w-full'>
                                 <Text fontSize='md' color={"blackAlpha.600"} mb={4}>state</Text>
-                                <Input value={state} onChange={(text) => setstate(text.target.value)} placeholder='' size='md' required />
+                                <input
+                                    className=" appearance-none border rounded-sm w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline"
+                                    id=""
+                                    type="text"
+                                    placeholder=""
+                                    value={state}
+                                    onChange={(e) => setstate(e.target.value)}
+                                    required
+                                />
                             </div>
                         </Flex>
                         <Flex color='white' flexDirection={["column", "row"]} mb={4}>
                             <div className='w-full mr-4 mb-4'>
                                 <Text fontSize='md' color={"blackAlpha.600"} mb={4}>nearest landmark/bus stop</Text>
-                                <Input value={busstop} onChange={(text) => setbusstop(text.target.value)} placeholder='' size='md' required />
+                                <input
+                                    className=" appearance-none border rounded-sm w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline"
+                                    id=""
+                                    type="text"
+                                    placeholder=""
+                                    value={busstop}
+                                    onChange={(e) => setbusstop(e.target.value)}
+                                    required
+                                />
                             </div>
                             <div className='w-full'>
                                 <Text fontSize='md' color={"blackAlpha.600"} mb={4}>Country</Text>
-                                <Input value={country} onChange={(text) => setcountry(text.target.value)} placeholder='' size='md' required />
+                                <input
+                                    className=" appearance-none border rounded-sm w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:-outline"
+                                    id=""
+                                    type="text"
+                                    placeholder=""
+                                    value={country}
+                                    onChange={(e) => setcountry(e.target.value)}
+                                    required
+                                />
                             </div>
                         </Flex>
                         <button className='h-[50px] w-full bg-black text-white flex justify-center items-center' onClick={() => { }}>
