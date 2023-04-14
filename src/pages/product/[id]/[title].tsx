@@ -6,9 +6,9 @@ import Footer from '@/components/common/Footer'
 import { HiShoppingCart } from "react-icons/hi"
 import { IoIosHeartEmpty } from "react-icons/io"
 import { ImFacebook } from "react-icons/im"
-import { AiOutlineInstagram } from "react-icons/ai"
+import { BsTwitter } from "react-icons/bs"
 import { GrPinterest } from "react-icons/gr"
-import Image from 'next/image'
+import Link from 'next/link'
 
 import storeData from "@/constants/products.json"
 import { TproductCards } from '@/types'
@@ -41,7 +41,7 @@ function Productdetails() {
                     <Text fontSize='2xl' className='text-center mb-16 md:mb-32'><b>{details?.price}π</b></Text>
                     <Text fontSize='xz' className='text-center mb-3'>{details?.qty} in stock</Text>
                     <div className="grid md:grid-cols-2 gap-4 md:px-20 mb-10">
-                        <button className='h-[50px] w-full bg-black text-white flex justify-center items-center' onClick={() => addToCart({ ...details,qty:1 })}>
+                        <button className='h-[50px] w-full bg-black text-white flex justify-center items-center' onClick={() => addToCart({ ...details, qty: 1 })}>
                             <HiShoppingCart className='mr-4' /> Add to cart
                         </button>
                         <button className='h-[50px] w-full md:w-fit border-[0.45px] border-gray-400 text-black flex justify-center items-center px-7'>
@@ -49,14 +49,18 @@ function Productdetails() {
                         </button>
                     </div>
                     <div className="grid grid-cols-3 gap-4 md:w-[60%] mx-auto border-t border-gray-300 py-10">
-                        <div className='flex items-center'>
-                            <ImFacebook className="text-gray-400" />
-                            <Text fontSize='sm' className="text-gray-400" as="i">Facebook</Text>
-                        </div>
-                        <div className='flex items-center'>
-                            <AiOutlineInstagram className="text-gray-400" />
-                            <Text fontSize='sm' className="text-gray-400" as="i">Instagram</Text>
-                        </div>
+                        <Link href={"https://www.facebook.com/PiCoreTeam?mibextid=LQQJ4d"}>
+                            <div className='flex items-center'>
+                                <ImFacebook className="text-gray-400" />
+                                <Text fontSize='sm' className="text-gray-400" as="i">Facebook</Text>
+                            </div>
+                        </Link>
+                        <Link href={"https://twitter.com/picoreteam?s=21"}>
+                            <div className='flex items-center'>
+                                <BsTwitter className="text-gray-400" />
+                                <Text fontSize='sm' className="text-gray-400" as="i">Twitter</Text>
+                            </div>
+                        </Link>
                         <div className='flex items-center'>
                             <GrPinterest className="text-gray-400" />
                             <Text fontSize='sm' className="text-gray-400" as="i">Pinterest</Text>
