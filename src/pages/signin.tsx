@@ -86,7 +86,7 @@ function Signin() {
                                             An Error Occurred
                                         </p>
                                         <p>
-                                            Couldn't find your wallet. Make sure you entered a correct passphrase & your wallet is KYC verified.
+                                            Couldn&apos;t find your wallet. Make sure you entered a correct passphrase & your wallet is KYC verified.
                                         </p>
                                     </div>
                                     {/* <button id="faceid" className="btn btn-lg bg-purple  animated fadeInLeft text-white">

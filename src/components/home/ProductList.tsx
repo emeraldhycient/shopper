@@ -23,7 +23,7 @@ function ProductList() {
         setlaptops(laptopList)
         const accessoryList = shuffledData.filter((item) => item.category === "accessories")
         setAccessories(accessoryList)
-    }, [])
+    }, [shuffledData])
 
 
     return (
