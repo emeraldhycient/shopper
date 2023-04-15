@@ -229,4 +229,16 @@
         "description":"Apple MacBook Pro 16.2'' with Liquid Retina XDR Display - USB-C Power Adapter - USB-C to MagSafe 3 Cable (2m) - Apple 1 Year Limited Warranty with 90 Day Free Technical Support 12-Core CPU,38-Core GPU,64GB Unified Memory,2TB SSD Storage.",
         "url": "https://www.amazon.com/Apple-MacBook-Pro-Early-2023/dp/B0BZNV56GC/ref=sr_1_6?crid=FGQ1HHTUKUOL&keywords=macbook&qid=1681542847&sprefix=macbook%2Caps%2C321&sr=8-6"
     }
+    ,
+    {
+        "id": 22,
+        "image": "https://m.media-amazon.com/images/I/71zENhSkHeL._AC_SX679_.jpg",
+        "title": "Anker 315 Wireless Charger (Pad), 10W Max",
+        "price": "0.7",
+        "qty": 5,
+        "category": "accessories",
+        "shortDescription": "Anker 315 Wireless Charger (Pad), 10W Max Fast Charging, Compatible with iPhone 14/13 Series, Samsung S22, AirPods, Samsung Buds, Google Buds, and More (Wall Charger Not Included)",
+        "description":"Ready, Set, Charge: Seamlessly charge your phone or earbuds by placing them in the center of the charging pad.Slim and Trim: With a compact design, easily pass this wireless charging pad for a coaster at only 8.5mm thick.Superior Compatibility: Works with the majority of phones, including the latest iPhones, Samsung flagship phones, and wireless earbuds.Safety First: Anker's proprietary safety technology is in full compliance with standards, ensuring complete safety for you and your devices.What You Get: Anker 315 Wireless Charger (Pad), 4ft / 1.21m Micro USB cable, welcome guide, worry-free 18-month warranty, and our friendly customer service.",
+        "url": "https://www.amazon.com/Anker-Wireless-Charging-Compatible-Included/dp/B0B469HLNL/ref=sr_1_3?crid=28SQF41PX0NXG&keywords=charging+pad&qid=1681544959&sprefix=charging+pa%2Caps%2C315&sr=8-3"
+    }
 ]
