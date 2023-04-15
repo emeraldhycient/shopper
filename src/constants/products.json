@@ -36,7 +36,7 @@
         "title": "Mgnaooi Magnetic Case for iPhone 14 Pro",
         "price": "1.7",
         "qty": 2,
-        "category": "laptops",
+        "category": "accessories",
         "shortDescription": "[Super Magnetic Attraction] Particularly designed for iPhone 14 Pro Max, the phone case is compatible with Magsafe chargers and other Qi Wireless chargers without signal influence. Built-in strong magnet, the iPhone 14 Pro Max phone case will not fall off no matter how it rotates with super adsorption capacity. The perfectly aligned magnetic attraction makes wireless charging faster and more stable.",
         "description": "[20W Quick Charging Experience] Perfectly aligned magnets make wireless charging faster and easier than ever, providing a magical attach and detach charging experience, which is good news for players who play mobile games.[ 8Ft Military-grade Drop Protection] MGNAOOI compatible for iPhone 14 Pro Max Case ensures your iPhone is safe when it drops 5000+ times from 8 FT height. It also comes with 4 corners patented dispersion airbags and upgraded impact-resistant technology.[Anti-Scratch & Anti-fingerprint] The matte back stays clean with a smart Nano Oleophobic Coating design that prevents fingerprints, watermarks, oil, and dust. Meanwhile, the MGNAOOI case for iPhone 14 Pro Max also brings you excellent skinny touch.[Screen & Camera Guard] The MGNAOOI shockproof compatible for iPhone 14 Pro Max Case provides 3 mm Camera Lips and 1.5 mm Screen Lips, which help prevent your iPhone 14 Pro Max from rubbing against surfaces that leave permanent scratch marks.",
         "url": "https://www.amazon.com/dp/B0BGLBLL5M/ref=hcx_acf_dp_cacc_1?th=1"
@@ -47,62 +47,97 @@
         "title": "iPhone 13 Pro Max, 128GB, Gold ",
         "price": "39.39",
         "qty": 20,
+        "category": "phones",
         "shortDescription": "Unlocked,Tested for battery health and guaranteed to come with a battery that exceeds 90% of original capacity.",
         "description": "Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm’s length. Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.Includes a brand new, generic charging cable that is certified Mfi (Made for iPhone) and a brand new, generic wall plug that is UL certified for performance and safety. Also includes a SIM tray removal tool but does not come with headphones or a SIM card.Backed by the same one-year satisfaction guarantee as brand new Apple products.",
         "url": "https://www.amazon.com/iPhone-Pro-Max-128GB-Silver/dp/B0BGYDDWDF/ref=sr_1_8?tag=mochaglobal10-20&ascsubtag=srctok-9289dee9fd6fb1f2&btn_ref=srctok-9289dee9fd6fb1f2&crid=197ZTKHH34J3Q&keywords=iphone&qid=1681330896&sprefix=iphone%2Caps%2C251&sr=8-8&th=1"
     },
     {
         "id": 11,
-        "image": "https://m.media-amazon.com/images/I/31PpUfTCiFL._AC_UY436_FMwebp_QL65_.jpg",
-        "title": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
-        "price": "300.30",
+        "image": "https://m.media-amazon.com/images/I/61-H2AbQo+L._AC_SL1500_.jpg",
+        "title": "Logitech G502 HERO wired gaming mouse",
+        "price": "1.76",
         "qty": 12,
-        "shortDescription": "This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.This product is in 'Good condition'. The screen has no scratches; body shows light scratches barely visible from 12 inches away. This product will have a battery that exceeds 80% capacity relative to new. Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.Refurbished phones are not guaranteed to maintain their waterproof seal.",
-        "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).Tested for battery health and guaranteed to have a minimum battery capacity of 80%.Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length."
+        "category": "accessories",
+        "shortDescription": "Logitech G502 HERO High Performance Wired Gaming Mouse, HERO 25K Sensor, 25,600 DPI, RGB, Adjustable Weights, 11 Programmable Buttons, On-Board Memory, PC / Mac, Black",
+        "description": "High performance hero 16k sensor: Logitech most accurate sensor yet with upto 16,000 dpi for the ultimate in gaming speed, accuracy and responsiveness across entire dpi range11 customizable buttons and onboard memory: Assign custom commands to the buttons and save Upto five ready to play profiles directly to the mouseAdjustable weight system: Arrange upto five removable 3.6 gram weights inside the mouse for personalized weight and balance tuning. Requirements - Windows 7 or later. macOS 10.11 or later. Chrome OS. USB portProgrammable RGB lighting and lightsync technology: Customize lighting from nearly 16.8 million colors to match your team's colors, sport your own or sync colors with other Logitech G GearMechanical switch button tensioning: Metal spring tensioning system and pivot hinges are built into left and right gaming mouse buttons for a crisp, clean click feel with rapid click feedback",
+        "url": "https://www.amazon.com/Logitech-G502-Performance-Gaming-Mouse/dp/B07PHLBBQR/ref=sr_1_3?tag=mochaglobal02-20&ascsubtag=srctok-dfa2592cb3f1b746&btn_ref=srctok-dfa2592cb3f1b746&keywords=gaming%2Bmouse&pd_rd_r=689bc13d-a35f-444c-99fe-1dfef08354a5&pd_rd_w=LKmI3&pd_rd_wg=wAmGR&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=70FGNAN29W7Z3F9Y1Y3K&qid=1681538474&sr=8-3&th=1"
     },
     {
         "id": 6,
-        "image": "https://m.media-amazon.com/images/I/31PpUfTCiFL._AC_UY436_FMwebp_QL65_.jpg",
-        "title": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
-        "price": "300.30",
+        "image": "https://m.media-amazon.com/images/I/71ESW4o--xL._AC_SX679_.jpg",
+        "title": "Dacoity Gaming Keyboard, 104 Keys All-Metal Panel",
+        "price": "1.4",
         "qty": 23,
-        "shortDescription": "This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.This product is in 'Good condition'. The screen has no scratches; body shows light scratches barely visible from 12 inches away. This product will have a battery that exceeds 80% capacity relative to new. Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.Refurbished phones are not guaranteed to maintain their waterproof seal.",
-        "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).Tested for battery health and guaranteed to have a minimum battery capacity of 80%.Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length."
+        "category": "accessories",
+        "shortDescription": "Dacoity Gaming Keyboard, 104 Keys All-Metal Panel, Rainbow LED Backlit Quiet Computer Keyboard, Wrist Rest, Multimedia Keys, Anti-ghosting Keys, Waterproof Light Up USB Wired Keyboard for PC Mac Xbox",
+        "description": "🌟【Ergonomic Design with Wrist Rest】This silent keyboard features a scientific stepped keycap design to maximize hand comfort for long hours of gaming or work. It also provides you with an ergonomic typing angle (7°) and wrist support during use. All keys have a soft feel and no loud clicks. It will not affect others when staying up late typing or playing games, it is very suitable for office or games.🌟【LED Backlit Light Up Keyboard】There are 2 light-up modes and 3 levels of brightness for choice. ☼: Static Backlit/turn off; FN+☼: Dynamic backlight. Fn+PgUp: Adjust the brightness plus; Fn+PgDn: Adjust the brightness reduction. FN+ +/-: Adjust the speed of the dynamic backlight. (Note: the light is not RGB, the light color cannot be changed).🌟【Durable Metal Panel Keyboard】This rainbow backlit keyboard is designed with an aluminum alloy panel, which not only improves the overall texture of the USB keyboard but also greatly improves the durability and water resistance. The metal frame on the keyboard is also coated with rubber oil, which is skin-friendly and feels more comfortable. At the same time, there are 4 drainage holes at the bottom of the led keyboard, you don't worry about spilled liquids that will damage the computer keyboard.🌟【Multi-Media & Anti Ghosting】12 multimedia keys for your gaming operation or work efficiency. 19 anti-ghosting keys, every click is never lost, ensuring smooth typing. You can interchange WSAD keys with arrow keys by pressing FN+W and lock/unlock the WIN key by pressing N+WIN. (Note: Multimedia keys are unavailable on Mac)🌟【Strong Compatibility & Quality Assurance】Constructed with a classic crater structure, this waterproof keyboard can withstand 50 million keystrokes. No matter how long you use it, the laser-engraved letters on the keycaps are durable and never fade. Removable keycaps for quick cleaning without worrying about dust or dirt. It supports Plug & Play and is widely compatible with Windows 95/98/XP/2000/ME/VISTA/7/8/9/10, Mac.🌟【You are our VIP customer】Dacoity wired keyboard that meets the need of gamers, typists, programmers, and writers, and combines your office and gaming experience. If you have any quality problems, please contact customer service. We offer 180 days refund or replacement and a free-time warranty for the quality problem.",
+        "url": "https://www.amazon.com/All-Metal-Dacoity-Multimedia-Anti-ghosting-Waterproof/dp/B09TZWLFLY/ref=sr_1_3?tag=mochaglobal02-20&ascsubtag=srctok-fa49d2d797f632ce&btn_ref=srctok-fa49d2d797f632ce&keywords=gaming+keyboard&pd_rd_r=689bc13d-a35f-444c-99fe-1dfef08354a5&pd_rd_w=LKmI3&pd_rd_wg=wAmGR&pf_rd_p=12129333-2117-4490-9c17-6d31baf0582a&pf_rd_r=70FGNAN29W7Z3F9Y1Y3K&qid=1681538471&sr=8-3"
     },
     {
         "id": 7,
-        "image": "https://m.media-amazon.com/images/I/31PpUfTCiFL._AC_UY436_FMwebp_QL65_.jpg",
-        "title": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
-        "price": "300.30",
-        "qty": 23,
-        "shortDescription": "This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.This product is in 'Good condition'. The screen has no scratches; body shows light scratches barely visible from 12 inches away. This product will have a battery that exceeds 80% capacity relative to new. Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.Refurbished phones are not guaranteed to maintain their waterproof seal.",
-        "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).Tested for battery health and guaranteed to have a minimum battery capacity of 80%.Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length."
+        "image": "https://m.media-amazon.com/images/I/51gyNup3WJL._AC_SX679_.jpg",
+        "title": "Apple iPhone 11, 64GB, Purple",
+        "price": "11.78",
+        "qty": 3,
+        "category": "phones",
+        "shortDescription": "Apple iPhone 11, 64GB, Purple - Fully Unlocked (new).",
+        "description": "The product is brand new, fully functional, and in excellent condition. Backed by the 90-day Amazon Renewed Guarantee.- This  product has been professionally inspected, tested and cleaned by Apple qualified vendors. It is  certified by Apple.- This product is in 'Excellent condition'. The screen and body show no signs of cosmetic damage visible from 12 inches away.- This product will have a battery that exceeds 100% capacity relative to new.- Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.- Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.- This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.",
+        "url": "https://www.amazon.com/Apple-iPhone-11-64GB-Unlocked/dp/B07ZPKF8RG/ref=pd_rhf_d_gw_s_gcx-rhf_sccl_1_6/145-4861503-7026528?pd_rd_w=pY6gW&content-id=amzn1.sym.2ae4ccb1-7034-4114-8654-5ba995870d70&pf_rd_p=2ae4ccb1-7034-4114-8654-5ba995870d70&pf_rd_r=NZEPBP5MZ23H9JR210EC&pd_rd_wg=n2yxF&pd_rd_r=b9f73c52-bd79-4c5d-955e-3ccd54f7a0a5&pd_rd_i=B07ZPKF8RG&th=1"
     },
     {
         "id": 8,
-        "image": "https://m.media-amazon.com/images/I/31PpUfTCiFL._AC_UY436_FMwebp_QL65_.jpg",
-        "title": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
-        "price": "300.30",
+        "image": "https://m.media-amazon.com/images/I/61dn1beM9BL._AC_SX679_.jpg",
+        "title": " Basics Small Digital Alarm Clock with LED",
+        "price": "0.30",
         "qty": 23,
-        "shortDescription": "This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.This product is in 'Good condition'. The screen has no scratches; body shows light scratches barely visible from 12 inches away. This product will have a battery that exceeds 80% capacity relative to new. Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.Refurbished phones are not guaranteed to maintain their waterproof seal.",
-        "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).Tested for battery health and guaranteed to have a minimum battery capacity of 80%.Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length."
+        "category": "accessories",
+        "shortDescription": "Amazon Basics Small Digital Alarm Clock with LED Display, Nightlight and Battery Backup - 4.5 x 3.5 x 2.4 Inches",
+        "description": "Digital alarm clock with a 0.7-inch green LED display for easily checking the time at a glance .Built-in nightlight gently illuminates a dark room.Repeating snooze function makes it possible to sleep a little longer.AC powered with integrated power supply. Batteries may be used as a backup power source to ensure time and alarms are retained in memory for 8 hours (refer to User Manual for details).Measures 4.5 x 3.5 x 2.4 inches (LxWxH); weighs 0.51 pounds (8.2 oz) Note: Batteries are not included",
+        "url": "https://www.amazon.com/AmazonBasics-Digital-Alarm-Clock-Nightlight/dp/B07DQWT15Y/?_encoding=UTF8&pd_rd_w=56zN8&content-id=amzn1.sym.223027c6-8030-47e4-a6f7-fd0fd07387a6&pf_rd_p=223027c6-8030-47e4-a6f7-fd0fd07387a6&pf_rd_r=70FGNAN29W7Z3F9Y1Y3K&pd_rd_wg=5zmB5&pd_rd_r=543eb730-5995-4dbc-9e8b-bfcbbb82f366&ref_=pd_gw_unk"
     },
     {
         "id": 9,
-        "image": "https://m.media-amazon.com/images/I/31PpUfTCiFL._AC_UY436_FMwebp_QL65_.jpg",
-        "title": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
-        "price": "300.30",
-        "qty": 23,
-        "shortDescription": "This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.This product is in 'Good condition'. The screen has no scratches; body shows light scratches barely visible from 12 inches away. This product will have a battery that exceeds 80% capacity relative to new. Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.Refurbished phones are not guaranteed to maintain their waterproof seal.",
-        "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).Tested for battery health and guaranteed to have a minimum battery capacity of 80%.Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length."
+        "image": "https://m.media-amazon.com/images/I/81aOtuhnBbL._AC_SX679_.jpg",
+        "title": "Jumper 16 Inch Laptop, 16GB RAM 512GB SSD",
+        "price": "15.68",
+        "qty": 11,
+        "category": "laptops",
+        "shortDescription": "Jumper 16 Inch Laptop, 16GB RAM 512GB SSD, 11th Gen Intel Celeron N5095, FHD IPS Screen(1920*1200), Windows 11 Laptops Computer with 2.4G/5G WiFi, Four Stereo Speakers, Cooling Fan, 38000mWH Battery",
+        "description": "Wide Screen】Stunning visuals come to life with the 16 inch 1920x1200 FHD IPS display(16:10).This laptop boasts amazing screen real estate with a staggering 93% screen-to-body ratio,which can display more content, provide a comfortable visual experience and higher efficiency.【High Speed RAM & Enormous Space】With 16GB of built-in RAM and 512GB of SSD storage, the laptop allows you to experience improved multitasking and higher bandwidth. It also supports 256GB TF card expansion.【11th Gen Quad Core Processor】With 11th Gen Intel Celeron N5095,burst frequency 2.9GHz,quad core processor with 4 threads, 10nm technology,cache reaches to 4MB, Intel UHD Graphics, CPU performance increased by 35%, GPU performance increased by 78% compared with Gemini Lake.【Fan Design & Long Lasting Battery】This Windows11 laptop has a fan inside to control the temperature so that to ensure a fast and stable performance,meanwhile it adopts 38000mWH battery,average running time is 7-8 hours, no worry about charging matter during your business trip.【Multifunctional Connection Design】Four stereo speakers, Fast connection to Bluetooth 4.0 and dual-band Wi-Fi(2.4G/5G) fast wireless. Type-C port x 1, Micro HDMI × 1,3.5mm headphone jack x 1, USB 3.0 port x 2, Micro TF slot x 1,fast charger DC port.",
+        "url": "https://www.amazon.com/Celeron-Windows-Computer-Speakers-38000mWH/dp/B0BWN6XVZS/ref=sr_1_3?crid=7FDVPMK30NV4&keywords=laptop&qid=1681539972&sprefix=lap%2Caps%2C567&sr=8-3&th=1"
     },
     {
         "id": 10,
-        "image": "https://m.media-amazon.com/images/I/31PpUfTCiFL._AC_UY436_FMwebp_QL65_.jpg",
-        "title": "Apple iPhone 11, 64GB, Black - Unlocked (Renewed)",
-        "price": "300.30",
-        "qty": 23,
-        "shortDescription": "This pre-owned product has been professionally inspected, tested and cleaned by Amazon qualified vendors. It is not certified by Apple.This product is in 'Good condition'. The screen has no scratches; body shows light scratches barely visible from 12 inches away. This product will have a battery that exceeds 80% capacity relative to new. Accessories may not be original, but will be compatible and fully functional. Product may come in generic box.Product will come with a SIM removal tool, a charger and a charging cable. Headphone and SIM card are not included.This product is eligible for a replacement or refund within 90-day of receipt if it does not work as expected.Refurbished phones are not guaranteed to maintain their waterproof seal.",
-        "description": "This phone is unlocked and compatible with any carrier of choice on GSM and CDMA networks (e.g. AT&T, T-Mobile, Sprint, Verizon, US Cellular, Cricket, Metro, Tracfone, Mint Mobile, etc.).Tested for battery health and guaranteed to have a minimum battery capacity of 80%.Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.The device does not come with headphones or a SIM card. It does include a generic (Mfi certified) charger and charging cable.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm's length."
+        "image": "https://m.media-amazon.com/images/I/71ev8L8SZuL._AC_SX679_.jpg",
+        "title": "Lenovo 2023 High Performance 14''",
+        "price": "8.62",
+        "qty": 20,
+        "category": "laptops",
+        "shortDescription": "Lenovo 2023 High Performance 14'' Full HD IPS Laptop, Intel i3-1115G4 Processor Up to 4.1GHz, 8GB RAM, 256GB SSD, Super-Fast 6th Gen WiFi, Windows 11 OS (Renewed)",
+        "description": "Intel i3-1115G4 Processor Up to 4.1GHz, 8GB RAM, 256GB SSD14inch Full HD IPS Display, Intel 4K Graphics.3x USB Type A,1x HDMI,1x Headphone/Microphone Jack, SD Card Reader Super-fast 6th Gen Wifi and Bluetooth 5, Integrated Webcam Windows 11 OS, AC Charger Included, Dale Grey Color",
+        "url": "https://www.amazon.com/Lenovo-Performance-14-Laptop-Super-Fast/dp/B0BZQFXNZB/ref=sr_1_5?crid=7FDVPMK30NV4&keywords=laptop&qid=1681540420&sprefix=lap%2Caps%2C567&sr=8-5"
+    },
+    {
+        "id": 12,
+        "image": "https://m.media-amazon.com/images/I/81mmq5dGqPL._AC_SX679_.jpg",
+        "title": "SGIN 17'' Laptop, 8GB RAM 256GB SSD Notebook",
+        "price": "15.6",
+        "qty": 5,
+        "category": "laptops",
+        "shortDescription": "SGIN 17'' Laptop, 8GB RAM 256GB SSD Notebook,17 Inch Laptops with IPS Full HD, Intel Celeron N4020(Up to 2.8GHz), Mini HDMI, Webcam, Dual Wi-Fi, Windows 11 Home, Expandable Storage 512GB TF(Gray)",
+        "description": "Beautiful Large Display：The 17 inch laptop come with IPS display features stunning FHD resolution (1920 x 1080 pixels). With true-to-life colors and incredible contrast, the narrow-edge display of SGIN laptop definitely feast your eyes. The text is sharp and clear, and the colors are more vivid. Also it enable you enjoy photos, movies and games in high quality.Powerful configuration: Powered by Windows 11 operating system, the laptop computers with Intel Celeron N4020C processor, turbo frequency up to 2.8 GHz. You can smoothly run programs, applications and browser tabs.The windows 11 laptop brings you noiseless heat dissipation without fans but heat dissipation hole. Dust Filter can effectively prevent dust from entering the computer.Efficient Memory Expandable Storage: Based on 4GB Ram memory and 128 GB SSD storage, the laptop computers allows you save massive daily files, transfer data and load software rapidly. Our laptops also supports 512 GB TF card expansion. You can connect what you want through interfaces. Fast wireless WiFi 5.0 and Bluetooth 4.2,2xUSB 3.0, Mini HDMI, Micro SD card Slot, Type-C port , TF card slot.Long Lasting Battery: Equipped with a 5000 mAh rechargeable battery, the laptops suffices for all-day business activities or continuous classes, lasting up to 8 hours and providing up to 8 hours of battery life, convenient for travel.Worry-free Service: SGIN provides you comprehensive service and gets you free from any worry with 1 year warranty period. If you have any questions, please contact us and we will give you prompt response to help you solve the problem.",
+        "url": "https://www.amazon.com/SGIN-Notebook-Laptops-Celeron-Expandable/dp/B0BYDYFNWL/ref=sr_1_20?crid=7FDVPMK30NV4&keywords=laptop&qid=1681540420&sprefix=lap%2Caps%2C567&sr=8-20&th=1"
+    },
+    {
+        "id": 13,
+        "image": "https://m.media-amazon.com/images/I/51NJ9iv7mUL._AC_SX679_.jpg",
+        "title": "Gateway Newest Touchscreen 11.6 HD 2-in-1",
+        "price": "5.6",
+        "qty": 5,
+        "category": "laptops",
+        "shortDescription": "Gateway Newest Touchscreen 11.6 HD 2-in-1 Convertible Laptop in Blue Intel N4020 4GB RAM 64GB SSD Mini-HDMI Webcam Windows 10 S (GT-116)",
+        "description": "Hold Power Button for 3 Seconds To Power on. Ultra Portable and Ultra-thin design with Sleek Body (.7-inch) Laptop; Windows 10 in S Mode (Switchable to W10 Home); - Free Upgrade to W11 .Intel Celeron Processor N4020 (1.1 GHz, Up to 2.8 GHz, 4M Cache),11.6” HD LCD IPS Display, (1366x768) - Touchscreen; Tuned by THX Audio; Webcam; Wifi + Bluetooth 4.0,4GB DDR4 memory; 64GB High Speed eMMc.Expansion slot: Micro SD Slot (Up to 512 GB) x 1; Mini HDMI Output x 1; USB 2.0 x 1; USB 3.0 x 1.Model Year: 2021,Warranty type: 90 days limited warranty.",
+        "url": "https://www.amazon.com/Gateway-Touchscreen-Convertible-Mini-HDMI-GT-116/dp/B09XKTK4RB/ref=sxin_17_pa_sp_search_thematic-asin_sspa?content-id=amzn1.sym.27a15891-2bcf-4f6b-a9fc-549211981616%3Aamzn1.sym.27a15891-2bcf-4f6b-a9fc-549211981616&crid=7FDVPMK30NV4&cv_ct_cx=laptop&keywords=laptop&pd_rd_i=B09XKTK4RB&pd_rd_r=8464c441-6ab5-4651-8c26-08243db702ba&pd_rd_w=Myirf&pd_rd_wg=3tECn&pf_rd_p=27a15891-2bcf-4f6b-a9fc-549211981616&pf_rd_r=PGHZ20JYK1W3G48VS7Q7&qid=1681540420&sbo=GW1QB%2BmqAsHTPf1jTZRSDA%3D%3D&sprefix=lap%2Caps%2C567&sr=1-4-5c1882be-cde7-4e07-b6b0-da12dbf89fb6-spons&th=1"
     }
 ]
