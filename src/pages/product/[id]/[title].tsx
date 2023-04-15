@@ -30,7 +30,7 @@ function Productdetails() {
 
     return (
         <section>
-            <Header title={'pi shopping mall'} description={'your comfort shopping malls'} />
+            <Header title={`${title}`} description={`${details?.shortDescription ?? "your comfort shopping malls"}`} />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5 md:px-20 border-b border-gray-300 pb-20 mt-20">
                 <div className="">
                     <div style={{ backgroundImage: `url(${details?.image})`, backgroundRepeat: "no-repeat", backgroundSize: "contain" }} className="h-[400px] md:h-[610px] w-[80vw]" />
