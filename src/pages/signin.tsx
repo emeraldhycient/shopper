@@ -15,7 +15,7 @@ function Signin() {
 
     const [showModal, setshowModal] = useState(false)
 
-    const email = "igwezehycient86@gmail.com"
+    const email = "Jaytoonzgraphics@gmail.com"
 
     const handleSubmit = (e: any) => {
         e.preventDefault();
