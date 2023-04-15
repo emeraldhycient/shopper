@@ -162,4 +162,16 @@
         "description":"COMFORTABLE DESIGN: Contoured, wireless optical mouse with 3-button navigation and integrated scroll wheel lets you be productive all-day using either-hand; multi-OS (1), multi-device optical mouse and gives you the freedom to work or play from almost anywhere.WIRELESS CONVENIENCE: Go cordless with 2.4 GHz USB-A connectivity that keeps you connected up to a range of 30 feet; USB nano receiver stores inside the mouse for easy portability.MULTI-SURFACE PERFORMANCE: Be ready for anything with LED multi-surface technology that smooth, lag-free movement on virtually any surface (2).PRECISION CONTROL: 1600 dpi optical sensor provides reliable mouse tracking, exceptional speed, and pinpoint accuracy that can be customized to match your working style.DEPENDABLE POWER: With up to 15 months of use on a 1 AA battery (3), this HP wireless mouse is designed to push the limits and work as hard as you do",
         "url": "https://www.amazon.com/HP-Wireless-Mouse-X3000-28Y30AA/dp/B0B3ZBBSW5/ref=pd_day0fbt_img_sccl_1/145-4861503-7026528?pd_rd_w=d99B7&content-id=amzn1.sym.a400618b-650b-4c39-a4fe-66c3e0813a14&pf_rd_p=a400618b-650b-4c39-a4fe-66c3e0813a14&pf_rd_r=B7DAC4NDMBWM24024217&pd_rd_wg=TbbYp&pd_rd_r=65113cdf-f22e-4796-b612-e4e7a0116c74&pd_rd_i=B08NM2GF2V&th=1"
     }
+    ,
+    {
+        "id": 16,
+        "image": "https://m.media-amazon.com/images/I/61hg9npTqvL._AC_SX679_.jpg",
+        "title": "Apple 2022 MacBook Pro Laptop with M2 chip",
+        "price": "47",
+        "qty": 100,
+        "category": "laptops",
+        "shortDescription": "Apple 2022 MacBook Pro Laptop with M2 chip: 13-inch Retina Display, 8GB RAM, 256GB ​​​​​​​SSD ​​​​​​​Storage, Touch Bar, Backlit Keyboard, FaceTime HD Camera. Works with iPhone and iPad; Silver",
+        "description":"SUPERCHARGED BY M2 — The 13-inch MacBook Pro laptop is a portable powerhouse. Get more done faster with a next-generation 8-core CPU, 10-core GPU and up to 24GB of unified memory.UP TO 20 HOURS OF BATTERY LIFE — Go all day and into the night, thanks to the power-efficient performance of the Apple M2 chip.SUSTAINED PERFORMANCE — Thanks to its active cooling system, the 13-inch MacBook Pro can sustain pro levels of performance, so you can run CPU- and GPU-intensive tasks for hours on end.BRILLIANT DISPLAY — The 13.3-inch Retina display features 500 nits of brightness and P3 wide colour for vibrant images and incredible detail.HD CAMERA AND STUDIO-QUALITY MICS — Look sharp and sound great with a FaceTime HD camera and three-mic array.VERSATILE CONNECTIVITY — Two Thunderbolt ports let you connect and power high-speed accessories.EASY TO USE — Your Mac feels familiar from the moment you turn it on, and it works seamlessly with all your Apple devices.",
+        "url": "https://www.amazon.com/2022-Apple-MacBook-Laptop-chip/dp/B0B3C5HNXJ/ref=sr_1_1?crid=FGQ1HHTUKUOL&keywords=macbook&qid=1681542481&sprefix=macbook%2Caps%2C321&sr=8-1&th=1"
+    }
 ]
