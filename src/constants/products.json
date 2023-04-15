@@ -289,4 +289,16 @@
         "description":"Bluetooth V4.1,USB output for mobile charging 2.1a 5V.Button cell battery (included) maintains time & alarm settingsDigital Tuning FM radio,20 station memories. Patented smartest automatic time setting system. Automatically sets itself to the correct year, month, date, day and time as soon as you plug it in and after every power interruption,Easy-to-read,1.4'' Cyan LED clock display, dimmer control. Easy to program.The soft blue night light is added convenience.The alarm can be programmed to operate on weekdays only, weekends only, or all seven days of the week. Set the alarm to wake you to your favorite FM music or news station, or to the buzzer.",
         "url": "https://www.amazon.com/Emerson-SmartSet-Radio-Bluetooth-ER100301/dp/B071NDT5Q3/ref=sr_1_21?crid=EPWF5D42DNDI&keywords=digital%2Bclock%2Bamazon&qid=1681549866&sr=8-21&th=1"
     }
+    ,
+    {
+        "id": 27,
+        "image": "https://m.media-amazon.com/images/I/619f09kK7tL._AC_SX679_.jpg",
+        "title": "Apple iPhone 14, 128GB, Purple",
+        "price": "39.94",
+        "qty": 10,
+        "category": "phones",
+        "shortDescription": "Apple iPhone 14, 128GB, Purple - Unlocked",
+        "description":"Vibrant 6.1-inch Super Retina XDR display with OLED technology. Action mode for smooth, steady, handheld videos.High resolution and color accuracy make everything look sharp and true to life.New Main camera and improved image processing to capture your shots in all kinds of light - especially low light.4K Cinematic mode at 24 fps automatically shifts focus to the most important subject in a scene.A15 Bionic, with a 5‑core GPU for lightning-fast performance. Superfast 5G.",
+        "url": "https://www.amazon.com/Apple-iPhone-14-128GB-Purple/dp/B0BN71VW28/ref=sr_1_1?crid=3P0JJM4OPRVJF&keywords=iphone%2B14&qid=1681550505&sprefix=iphone%2B1%2Caps%2C342&sr=8-1&th=1"
+    }
 ]
