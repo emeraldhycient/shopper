@@ -301,4 +301,40 @@
         "description":"Vibrant 6.1-inch Super Retina XDR display with OLED technology. Action mode for smooth, steady, handheld videos.High resolution and color accuracy make everything look sharp and true to life.New Main camera and improved image processing to capture your shots in all kinds of light - especially low light.4K Cinematic mode at 24 fps automatically shifts focus to the most important subject in a scene.A15 Bionic, with a 5‑core GPU for lightning-fast performance. Superfast 5G.",
         "url": "https://www.amazon.com/Apple-iPhone-14-128GB-Purple/dp/B0BN71VW28/ref=sr_1_1?crid=3P0JJM4OPRVJF&keywords=iphone%2B14&qid=1681550505&sprefix=iphone%2B1%2Caps%2C342&sr=8-1&th=1"
     }
+    ,
+    {
+        "id": 28,
+        "image": "https://m.media-amazon.com/images/I/619f09kK7tL._AC_SX679_.jpg",
+        "title": "Apple iPhone 14 Plus, 128GB",
+        "price": "38.82",
+        "qty": 10,
+        "category": "phones",
+        "shortDescription": "Apple iPhone 14 Plus, 128GB, Midnight - Unlocked (Renewed)",
+        "description":"6.7-inch Super Retina XDR display and advanced camera system for better photos in any light.Cinematic mode now in 4K Dolby Vision up to 30 fps.Action mode for smooth, steady, handheld videos.All-day battery life and up to 26 hours of video playback.A15 Bionic chip with 5-core GPU for lightning-fast performance. Superfast 5G cellular.manufacturer : Apple Computer",
+        "url": "https://www.amazon.com/Apple-iPhone-Plus-128GB-Midnight/dp/B0BN9426PP/ref=sr_1_2?crid=3P0JJM4OPRVJF&keywords=iphone%2B14&qid=1681551000&sprefix=iphone%2B1%2Caps%2C342&sr=8-2&th=1"
+    }
+    ,
+    {
+        "id": 29,
+        "image": "https://m.media-amazon.com/images/I/51uD1lmrV8L._AC_SX679_.jpg",
+        "title": "Apple iPhone 14 Pro Max, 512GB",
+        "price": "54.88",
+        "qty": 5,
+        "category": "phones",
+        "shortDescription": "Apple iPhone 14 Pro Max, 512GB, Space Black - Unlocked (Renewed Premium)",
+        "description":"Unlocked,Tested for battery health and guaranteed to come with a battery that exceeds 90% of original capacity.Inspected and guaranteed to have minimal cosmetic damage, which is not noticeable when the device is held at arm’s length. Successfully passed a full diagnostic test which ensures like-new functionality and removal of any prior-user personal information.Includes a brand new, generic charging cable that is certified Mfi (Made for iPhone) and a brand new, generic wall plug that is UL certified for performance and safety. Also includes a SIM tray removal tool but does not come with headphones or a SIM card.Backed by the same one-year satisfaction guarantee as brand new Apple products.",
+        "url": "https://www.amazon.com/Apple-iPhone-512GB-Space-Black/dp/B0BYLJGKKL/ref=sr_1_3?crid=3P0JJM4OPRVJF&keywords=iphone%2B14&qid=1681551000&sprefix=iphone%2B1%2Caps%2C342&sr=8-3&th=1"
+    }
+    ,
+    {
+        "id": 30,
+        "image": "https://m.media-amazon.com/images/I/518bzP8VW1L._AC_SX679_.jpg",
+        "title": "Apple iPhone 14 Pro, 256GB",
+        "price": "39.20",
+        "qty": 7,
+        "category": "phones",
+        "shortDescription": "Apple iPhone 14 Pro, 256GB, Deep Purple - Unlocked (Renewed)",
+        "description":"6.1-inch Super Retina XDR display featuring Always-On and ProMotion.Dynamic Island, a magical new way to interact with iPhone.48MP Main camera for up to 4x greater resolution.Cinematic mode now in 4K Dolby Vision up to 30 fps. Action mode for smooth, steady, handheld videos.A16 Bionic, the ultimate smartphone chip. Superfast 5G cellular.",
+        "url": "https://www.amazon.com/Apple-iPhone-256GB-Deep-Purple/dp/B0BN91GD3J/ref=sr_1_4?crid=3P0JJM4OPRVJF&keywords=iphone%2B14&qid=1681551000&sprefix=iphone%2B1%2Caps%2C342&sr=8-4&th=1"
+    }
 ]
