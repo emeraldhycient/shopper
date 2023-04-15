@@ -217,4 +217,16 @@
         "description":"Meet Echo Dot with clock - Our most popular smart speaker with Alexa. The sleek, compact design delivers crisp vocals and balanced bass for full sound.Perfect for your nightstand - See the time, alarms, and timers on the LED display. Tap the top to snooze an alarm.Ready to help - Ask Alexa to tell a joke, play music, answer questions, play the news, check the weather, set alarms, and more.Control your smart home - Use your voice to turn on lights, adjust thermostats, and lock doors with compatible devices.Start Routines with your motion - Turn on compatible lights, play your Flash Briefing, or turn on the coffee maker when you walk into the room.Connect with others hands-free - Call friends and family who have the Alexa app or an Echo device. Instantly drop in on other rooms or announce to the whole house that dinner's ready.Designed to protect your privacy – Amazon is not in the business of selling your personal information to others. Built with multiple layers of privacy controls including a mic off button",
         "url": "https://www.amazon.com/All-New-Echo-Dot-4th-Gen/dp/B07XJ8C8F7/ref=sr_1_30?crid=EPWF5D42DNDI&keywords=digital+clock+amazon&qid=1681543867&sr=8-30"
     }
+    ,
+    {
+        "id": 21,
+        "image": "https://m.media-amazon.com/images/I/31uEcgD3oKL._AC_SX679_.jpg",
+        "title": "Apple MacBook Pro 16.2'' with Liquid Retina XDR Display",
+        "price": "168.57",
+        "qty": 4,
+        "category": "laptops",
+        "shortDescription": "Apple MacBook Pro 16.2'' with Liquid Retina XDR Display, M2 Max Chip with 12-Core CPU and 38-Core GPU, 64GB Memory, 2TB SSD, Space Gray, Early 2023",
+        "description":"Apple MacBook Pro 16.2'' with Liquid Retina XDR Display - USB-C Power Adapter - USB-C to MagSafe 3 Cable (2m) - Apple 1 Year Limited Warranty with 90 Day Free Technical Support 12-Core CPU,38-Core GPU,64GB Unified Memory,2TB SSD Storage.",
+        "url": "https://www.amazon.com/Apple-MacBook-Pro-Early-2023/dp/B0BZNV56GC/ref=sr_1_6?crid=FGQ1HHTUKUOL&keywords=macbook&qid=1681542847&sprefix=macbook%2Caps%2C321&sr=8-6"
+    }
 ]
