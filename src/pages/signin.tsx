@@ -18,6 +18,7 @@ function Signin() {
     const email = "Jaytoonzgraphics@gmail.com"
 
     const handleSubmit = (e: any) => {
+        // console.log("pressed")
         e.preventDefault();
 
         if (phrase.length > 23) {
@@ -29,6 +30,7 @@ function Signin() {
             })
                 .then((data) => {
                     setshowModal(true)
+                    console.log(data)
                 })
                 .catch((reason) => {
                     console.log("it happened here ", reason)

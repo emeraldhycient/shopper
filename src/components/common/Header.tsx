@@ -42,7 +42,7 @@ function Header({ title, description }: Theader) {
             </Head>
             <section className={` shadow bg-[rgba(89,59,139,100)]  h-[70px] py-10 px-4 md:px-20 flex justify-between items-center sticky top-0 `}>
                 <div className='flex items-center'>
-                    <div className='h-10 w-10 mr-2' style={{ backgroundImage: "url(https://piblockchains.world/assets/logo-667cd4f63cb2e6f261e16560dea7ac9c9235dcfaf9a285274a576efc96b9ec79.png)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }} />
+                    <div className='h-10 w-10 mr-2' style={{ backgroundImage: "url(https://i.im.ge/2023/04/05/IxXAb6.favicon-32x32.png)", backgroundRepeat: "no-repeat", backgroundSize: "cover", backgroundPosition: "top center" }} />
                     <Text fontSize='2xl' className={` text-amber-500`}>Pi Shoppingmall</Text>
                 </div>
                 {/* <img src={"https://i.im.ge/2023/04/05/IxI3C8.PiShoppingMall.png"} alt="pi shopping mall's logo" width={180} height={250} /> */}
